@@ -10,7 +10,7 @@
              max-width:100px;
              min-width:60px;
              position:fixed;
-             left:0;top:40px;
+             right:0;top:60px;
              width:10%;
              z-index:10000" 
       href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2023-season&utm_content=white" 
@@ -20,14 +20,20 @@
 
   <body>
     <!-- Top nav bar -->
-    <nav>
-      <li><a href="#wehack">About</a></li>
-      <li><a href="#testimonials">Testimonials</a></li>
-      <li><a href="#sponsors">Sponsors</a></li>
-      <li><a href="#faq">FAQ</a></li>
-      <li><a href="#meettheteam">Team</a></li>
-    </nav>
-    
+    <header class="navheader">
+      <a href="#" class = "logo"> WEHack </a>
+      <input class="hammenu" type="checkbox" id="hammenu" />
+      <label for="hammenu" class="hamburger"><span class="hamb-line"></span></label>
+      <nav class="nav">
+        <ul class="menu">
+          <li><a href="#wehack">About</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#sponsors">Sponsors</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#meettheteam">Team</a></li>
+        </ul>
+      </nav> 
+    </header>   
     <!-- JUMBOTRON -->
     <div class="component jumbotron">
         <div class="container">
