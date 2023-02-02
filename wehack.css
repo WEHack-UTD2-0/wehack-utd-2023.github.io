@@ -194,7 +194,7 @@ ul {
   top: 0;
 }
 
-@media (min-width: 860px) {
+@media Screen and (min-width: 860px) {
   .nav {
     max-height: 70px;
     top: 0;
