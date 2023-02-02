@@ -84,6 +84,9 @@ nav {
   padding: 0.5rem 1rem;
   display: flex;
   justify-content: space-between;
+  background-color: #E0A269;
+  position: sticky;
+  z-index: 1000;
 }
 
 nav a {
