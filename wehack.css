@@ -101,8 +101,8 @@ ul {
   display: inline-block;
   color: #d24a32;
   text-shadow: 2px 2px 2px #fff2ce;
-  font-size: 40px;
-  margin-top: 5px;
+  font-size: 30px;
+  margin-top: 10px;
   margin-bottom: 5px;
 }
 
@@ -196,9 +196,9 @@ ul {
 
 @media Screen and (min-width: 860px) {
   .nav {
-    max-height: 70px;
+    max-height: none;
     top: 0;
-    position: relative;
+    position: static;
     float: right;
     width: fit-content;
     background-color: transparent;
@@ -222,7 +222,7 @@ ul {
 
 /* ~~~~~~~~~~~~JUMBOTRON STYLING~~~~~~~~~~ */
 .jumbotron {
-  height: 120vh;
+  height: 130vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -260,6 +260,7 @@ ul {
 .jumbotron .placeholder {
   margin: 0px 50px;
   width: 40%;
+
   /*background-color: white;
   opacity: 0.2;
   height: 70vh;*/
